@@ -1,7 +1,7 @@
 # Morse-Code-Translator by arfu
-A morse code translator made in python
+#A morse code translator made in python
 
-How to use: 
+#How to use: 
 
 from MorseAPI import morse
 
