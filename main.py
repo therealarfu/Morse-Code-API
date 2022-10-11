@@ -1,8 +1,8 @@
-from MorseAPI import morse
+import morseapi
 
 x = str(input('Insert your text: '))
 y = str(input('Insert [0] to code or [1] to decode'))[0]
 if y == '0':
-	print(morse(x))
+	print(morseapi.encode(x))
 else:
-	print(morse(x, True))
+	print(morseapi.decode(x))
